@@ -1,0 +1,23 @@
+/* Montserrat Bold */
+@font-face {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	src: url('./Montserrat/Montserrat-Bold.ttf');
+}
+
+/* Mulish Bold */
+@font-face {
+	font-family: 'Mulish';
+	font-style: normal;
+	font-weight: 700;
+	src: url('./Mulish/Mulish-Bold.ttf');
+}
+
+/* Mulish Semi Bold */
+@font-face {
+	font-family: 'Mulish';
+	font-style: normal;
+	font-weight: 600;
+	src: url('./Mulish/Mulish-SemiBold.ttf');
+}
