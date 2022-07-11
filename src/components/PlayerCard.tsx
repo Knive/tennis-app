@@ -15,8 +15,8 @@ export const countryNamesMap: Record<string, string> = {
 export default function PlayerCard({ player }: { player: Player }) {
 
 	return (
-		<div className="bg-white h-36 w-full pr-5 shadow-lg flex hover:shadow-yellow-700 overflow-clip">
-			<div className="h-36 w-36 overflow-clip">
+		<div className="bg-white h-36 w-full pr-5 shadow-lg flex hover:shadow-yellow-700 overflow-hidden">
+			<div className="h-36 w-36 overflow-hidden">
 				<img alt={player.shortname} src={player.picture} className="h-full w-full object-cover object-top mt-2" />
 			</div>
 			<div className="flex flex-col justify-center ml-5">
